@@ -1,0 +1,7 @@
+TANKS V4.6.2
+
+- Fixed crash caused by new.py importing removed get_local_ip/get_public_ip functions.
+- Fully reverted host/join UI to LAN join-code networking only.
+- Removed public/local IP display and public-IP lookup code.
+- Updated GAME_VERSION to 4.6.2.
+- Python source files are UTF-8.

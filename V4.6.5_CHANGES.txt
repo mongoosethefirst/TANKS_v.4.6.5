@@ -1,0 +1,8 @@
+TANKS V4.6.5
+
+- Replaced icon.png with the supplied icon artwork.
+- Added bullet_break.png impact frame and a short bullet impact animation when bullets hit a tank, wall, or reach max range.
+- Death chat now randomly uses one of four requested messages.
+- Verified player-to-player collision is already enforced by tank_hits_player during movement.
+- Updated GAME_VERSION to 4.6.5.
+- Updated the all-platform GitHub Actions build for Windows, macOS, and Linux.

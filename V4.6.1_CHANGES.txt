@@ -1,0 +1,7 @@
+TANKS V4.6.1
+
+- Restored LAN-only join-code multiplayer.
+- Join screen no longer asks for or accepts a host IP.
+- Joining works by entering the host's 6-character code on the same LAN/Wi-Fi.
+- Preserves the V4.5 gameplay changes and V4.5.1 external images/fonts build layout.
+- Version compatibility is now 4.6.1.

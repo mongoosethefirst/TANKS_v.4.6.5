@@ -1,0 +1,30 @@
+TANKS V4.6.5 - GitHub upload layout
+
+IMPORTANT:
+Upload the CONTENTS of this ZIP to the repository root.
+Do not upload the ZIP itself as one file.
+
+The GitHub repository root must show these items directly:
+
+.github/
+game_client_base.py
+home_page.py
+join.py
+network.py
+new.py
+paths.py
+play_client.py
+play_host.py
+requirements.txt
+server.py
+tanks/
+
+Inside tanks/ there must be:
+
+tanks/images/
+tanks/fonts/
+
+The workflow is:
+.github/workflows/build-all-platforms.yml
+
+It builds separate Windows, macOS, and Linux artifacts.

@@ -1,0 +1,8 @@
+TANKS V4.5
+
+- Item spawn rates now scale with the number of connected players. Two players keep the old rate; larger games spawn ammo/scrap/health more often.
+- Damaged living tanks regenerate 5 health every 5 seconds, capped at 100.
+- Lower-health tanks move slightly faster. 10 HP is 30% faster than 100 HP, with linear scaling between.
+- Added GAME_VERSION = "4.5" in network.py. Clients and servers reject mismatched versions.
+- Added tank-to-tank player collision.
+- After a match ends, a 15-second rematch countdown appears at the bottom of the results screen. Connected players are assigned randomized balanced teams and a fresh match begins automatically.
